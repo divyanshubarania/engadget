@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 45px;
+}
+.eng{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 79px;
+}
+.crt{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+}
+
+.first {
+    height: 100%;
+    width: 70%;
+    background: #12c2e9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.second {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(243, 251, 248);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    height: 25px;
+    margin-top: 20px;
+}
+h3{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+input {
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+}
+
+.next {
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: #3399cc;
+    color: white;
+    border-radius: 2px;
+}
+
+.ank {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.account {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #3399cc;
+    color: #3399cc;
+}
+
+.google {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #3399cc;
+    color: #3399cc;
+}
+
+.ter {
+    height: 40px;
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    color: 1px solid #3399cc;
+    color: #3399cc;;
+}
